@@ -52,7 +52,7 @@ setup(name='phylorecruit',
       packages=find_packages(),
       install_requires=[
           'click >= 6',
-          'scikit-bio >= 0.4.0',
+          'scikit-bio >= 0.5.1',
       ],
       extras_require={'test': ["nose", "pep8", "flake8"],
                       'coverage': ["coverage"]})
